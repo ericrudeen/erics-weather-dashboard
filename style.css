@@ -1,1 +1,43 @@
- 
+:root {
+    --background: #FAFAFA;
+    --teal: #CCDBD1;
+    --tan: #ECD5C5;
+    --gray: #8F8D98;
+    --blue: #314457;
+    --dark-blue: #131E2D;
+    --border-radius: .3rem;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    color: var(--dark);
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.25;
+  }
+
+
+.header {
+    background-color: var(--blue);
+    color: var(--tan);
+}
+
+.card {
+    background-color: var(--teal);
+}
