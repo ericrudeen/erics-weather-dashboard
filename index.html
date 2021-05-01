@@ -27,29 +27,22 @@
     </header>
     
     <div class="row g-5 py-5">
-        <form class="col-md-4" id="search-cities">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <h2 class="mb-4">Search for a City:</h2>
-                        <input type="text" id="city">
-                        <button id="city-search"><i class="fab fa-searchengin"></i></button>
-                    </div>
+        <form class="col-md-4" id="search-cities"> 
+            <div class="container row">
+                <div class="col-sm" id="form">
+                    <h2 class="mb-4">Search for a City:</h2>
+                    <input type="text" id="city" placeholder="City Name">
+                    <button type="submit" id="city-search"><i class="fab fa-searchengin"></i></button>
                 </div>
             </div>
         </form>
         <div class="col-md-8 pr-5 pl-5" id="weather-data">
             <div class="card weather" id="weather-card">
                 <div class="card-body card">
-                    <h2 class="mb-4 card-title"></h2>
+                    <h2 class="mb-4" id="card-title"></h2>
                     <p class="card-text" id="temp"></p>
-                    <p class="card-text" id="humid"></p>
-                    <p class="card-text" id="wind"></p>
-                    <p class="card-text"><span id="uvi"></span></p>
                 </div>
             </div>
-            <h2 id="forecast-header"></h2>
-            <div class="row" id="forecast-display"></div>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
